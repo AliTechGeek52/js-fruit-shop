@@ -20,7 +20,7 @@
     </section>
     <section id="total">
         <h2>Your total is Rs.
-            <strong>0</strong>
+            <strong id="ItemsTotal" onkeyup="CalculateItemsValue()">0</strong>
         </h2>
     </section>
     <section id="fruits">
@@ -35,7 +35,7 @@
                 </div>
                 <div class="input-div">
                     <button onclick="decreaseValue()" id="decrease" class="minus-button">-</button>
-                    <input type="text" id="number" value="0">
+                    <input type="text" id="number" value="0" data-price="100">
                     <button onclick="increaseValue()" id="increase" class="plus-button">+</button>
                 </div>
             </div>
